@@ -18,5 +18,8 @@ public class Main {
         System.out.println(administrativo.pegarExperiencia());
         administrativo.exigeExperiencia = true;
         System.out.println(administrativo.pegarExigenciadeExperiencia());
+
+        Hotel hotel = new Hotel();
+        System.out.println(hotel.reservarQuarto());
     }
 }
